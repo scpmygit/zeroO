@@ -11,28 +11,159 @@
 </head>
 
 <body>
-  <p>这是 <strong>"MDN-WEB"</strong> 教写的示例<a href="http://www.cctv.com" target="_blank">页面</a></p>
-  <input type="text" placeholder="禁止输入" disabled>
+  <header>
+    <h1>learning HTML ...</h1>
+    <p>这是 <strong>"MDN-WEB"</strong> 教写的示例<a href="http://www.cctv.com" target="_blank">页面</a></p>
+  </header>
 
-  <ul>
-    <li>普林斯顿微积分</li>
-    <li>托马斯微积分</li>
-    <li>同济大学·高等数学</li>
-  </ul>
+  <nav>
+    <ul>
+      <li><a href="#">html</a></li>
+      <li><a href="#">css</a></li>
+      <li><a href="#">JavaScript</a></li>
+      <li><a href="#">VUE</a></li>
+    </ul>
 
-  <ul>learning ...
-    <li>HTML
-      <ol>    <!-- ordered -->
-        <li>html</li>
-        <li>css</li>
-        <li>JavaScript</li>
-      </ol>
-    </li>
-    <li>VUE</li>
-    <li>SQL</li>
-  </ul>
+    <form> <!-- 搜索栏是站点内导航的一个非线性的方式。 -->
+      <input type="search" name="q" placeholder="要搜索的内容" disabled>
+      <input type="submit" value="click to search">
+    </form>
+  </nav>
 
-  <p>em 表示<em>强调</em>，通常用斜体表示；strong 表示<strong>非常重要</strong>，通常用粗体表示。但是，如果只是纯粹为了斜体或粗体的显示效果，应该使用 span + css 或 <i>i 元素</i> 或 <b>b 元素</b>。</p>
+  <main> <!-- 存放每个页面独有的内容。每个页面上只能用一次 <main>，且直接位于 <body> 中。最好不要把它嵌套进其它元素 -->
+    <aside>
+      <h2>放在侧边栏的相关链接</h2>
+      <ul>
+        <li><a href="#">Python</a></li>
+        <li><a href="#">Flask</a></li>
+        <li><a href="#">English</a></li>
+      </ul>
+    </aside>
+
+    <article> <!-- 包围的内容即一篇文章，与页面其它部分无关（比如一篇博文） -->
+
+      <h2>一、总体要求</h2>
+
+      <p>1．指导思想。坚持以马克思列宁主义、毛泽东思想、邓小平理论、“三个代表”重要思想、科学发展观、习近平新时代中国特色社会主义思想为指导，增强“四个意识”，坚定“四个自信”，做到“两个维护”，着眼培养担当民族复兴大任的时代新人，始终高扬爱国主义旗帜，着力培养爱国之情、砥砺强国之志、实践报国之行，使爱国主义成为全体中国人民的坚定信念、精神力量和自觉行动。</p>
+      <p>2．坚持把实现中华民族伟大复兴的中国梦作为鲜明主题。伟大事业需要伟大精神，伟大精神铸就伟大梦想。要把国家富强、民族振兴、人民幸福作为不懈追求，着力扎紧全国各族人民团结奋斗的精神纽带，厚植家国情怀，培育精神家园，引导人们坚持中国道路、弘扬中国精神、凝聚中国力量，为实现中华民族伟大复兴的中国梦提供强大精神动力。</p>
+
+      <h2>二、基本内容</h2>
+
+      <p>7．坚持用习近平新时代中国特色社会主义思想武装全党、教育人民。</p>
+      <p>习近平新时代中国特色社会主义思想是马克思主义中国化最新成果，是党和人民实践经验和集体智慧的结晶，是中国特色社会主义理论体系的重要组成部分，是全党全国人民为实现中华民族伟大复兴而奋斗的行动指南，必须长期坚持并不断发展。要深刻理解习近平新时代中国特色社会主义思想的核心要义、精神实质、丰富内涵、实践要求，不断增强干部群众的政治意识、大局意识、核心意识、看齐意识，坚决维护习近平总书记党中央的核心、全党的核心地位，坚决维护党中央权威和集中统一领导。要紧密结合人们生产生活实际，推动习近平新时代中国特色社会主义思想进企业、进农村、进机关、进校园、进社区、进军营、进网络，真正使党的创新理论落地生根、开花结果。要在知行合一、学以致用上下功夫，引导干部群众坚持以习近平新时代中国特色社会主义思想为指导，展现新气象、激发新作为，把学习教育成果转化为爱国报国的实际行动。</p>
+    </article>
+    
+    <article>
+      <h2>火星演唱会火热售票中</h2>
+
+      <p>洛天依是上海禾念推出的一套采用Vocaloid语音合成技术的数据库及虚构角色。歌声样本取自中国配音演员山新和日本歌手鹿乃，ideolo为“Vocaloid™ China Project”设计出该角色。</p>
+
+      <h3>九九八十一 —— 传唱经典</h3>
+
+      <p>世尊如来佛 诘问着我的执着 当年我瑶池刻 闹得痛快并未想过太多 状罪责 拿捏了我的业果 可顽心不服错 不思过 齐天大圣地上行者</p>
+
+      <p>那传说 忘却了我的寂寞 英雄名不堪得 何必较我混沌徒费口沫 这人间 毕竟我真正走过 一途平九百波 九千错 凌云渡成正果但我 有九九八十一种不舍</p>
+
+      <h3>达拉崩吧 —— 生僻字?弱爆了!</h3>
+
+      <p>龘䶛䨻䎱㸞蚮䡶䴞䴝䯬䬛䰕㹚砍向㱎䖘䵈䶁䘔䶑䘓鋱䩳䵷㒪䪉䉥，然后㱎䖘䵈䶁䘔䶑䘓鋱䩳䵷㒪䪉䉥咬了龘䶛䨻䎱㸞蚮䡶䴞䴝䯬䬛䰕㹚。最后龘䶛䨻䎱㸞蚮䡶䴞䴝䯬䬛䰕㹚他战胜了㱎䖘䵈䶁䘔䶑䘓鋱䩳䵷㒪䪉䉥，救出了公主䥸䝟䳮䟑䎘䫱䉷䰯䕈䟐䬝，回到了䥰龘䰕䘋㽌䇁䵄䵻䬛蟿䆉㖀城。国王听说龘䶛䨻䎱㸞蚮䡶䴞䴝䯬䬛䰕㹚他打败了㱎䖘䵈䶁䘔䶑䘓鋱䩳䵷㒪䪉䉥，就把公主䥸䝟䳮䟑䎘䫱䉷䰯䕈䟐䬝嫁给龘䶛䨻䎱㸞蚮䡶䴞䴝䯬䬛䰕㹚。</p>
+
+      <p>龘䶛䨻䎱、公主䥸䝟幸福地像个童话，他们生下一个孩子也在天天渐渐长大，为了避免以后麻烦，孩子称作王浩然，他的全名十分难念，我不想说一遍……</p>
+    </article>
+
+
+    <ul id="tolearn">
+      <li>普林斯顿微积分</li>
+      <li>托马斯微积分</li>
+      <li>同济大学·高等数学</li>
+    </ul>
+
+    <ul>learning ...
+      <li>HTML
+        <ol>    <!-- ordered -->
+          <li>html</li>
+          <li>css</li>
+          <li>JavaScript</li>
+        </ol>
+      </li>
+      <li>VUE</li>
+      <li>SQL</li>
+    </ul>
+
+    <!-- 描述列表 description list 
+    标记一组项目及其相关描述，例如术语和定义，或者是问题和答案等
+    -->
+    <dl>
+      <dt>css</dt>
+        <dd>层叠样式表</dd>
+      <dt>html</dt>
+        <dd>狭指超文本标记语言</dd>
+        <dd>泛指前端三大件</dd>
+    </dl>
+
+    <p>em 表示<em>强调</em>，通常用斜体表示；strong 表示<strong>非常重要</strong>，通常用粗体表示。但是，如果只是纯粹为了斜体或粗体的显示效果，应该使用 span + css 或 <i>i 元素</i> 或 <b>b 元素</b>。</p>
+
+    <p>Everyday, think about <a href="#tolearn" title="master math">what to learn</a>.</p>
+
+    <p>引用：块引用、行引用</p>
+    <blockquote cite="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/blockquote">
+      <p>浏览器在渲染块引用时默认会增加缩进，作为引用的一个指示符；MDN是这样做的，但是也增加了额外的样式</p>
+      <P>不限于一个段落</P>
+    </blockquote>
+    
+    <p>行内元素用同样的方式工作，但使用的是 <q cite="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/q">&lt;q&gt; 元素
+    </q></p>
+
+
+    <p><abbr title="美国国家航空航天局（National Aeronautics and Space Administration）">NASA</abbr> 做了一些动人心弦的事情。</p>
+    <p>咖啡因的化学方程式是 C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>。</p>
+    <p>如果 x<sup>2</sup> 的值为 9，那么 x 的值必为 3 或 -3。</p>
+
+    <!-- 源代码 -->
+    <pre><code>
+      const para = document.querySelector('p');
+
+      para.onclick = function() {
+        alert('噢，噢，噢，别点我了。');
+      }
+    </code></pre>
+
+    <p>请不要使用 <code>&lt;font&gt;</code> 、 <code>&lt;center&gt;</code> 等表象元素。</p>
+
+    <p>在上述的 JavaScript 示例中，<var>para</var> 表示一个段落元素。</p>
+
+
+    <p>按 <kbd>Ctrl</kbd>/<kbd>Cmd</kbd> + <kbd>A</kbd> 选择全部内容。</p>
+
+    <pre>$ <kbd>ping mozilla.org</kbd>
+    <samp>PING mozilla.org (63.245.215.20): 56 data bytes
+    64 bytes from 63.245.215.20: icmp_seq=0 ttl=40 time=158.233 ms</samp>
+    </pre>
+
+
+    <hr>
+    <!-- 标准简单日期 -->
+    <time datetime="2016-01-20">20 January 2016; </time><br>
+    <!-- 只包含年份和月份-->
+    <time datetime="2016-01">January 2016; </time><br>
+    <!-- 只包含月份和日期 -->
+    <time datetime="01-20">20 January; </time><br>
+    <!-- 只包含时间，小时和分钟数 -->
+    <time datetime="19:30">19:30; </time><br>
+    <!-- 还可包含秒和毫秒 -->
+    <time datetime="19:30:01.856">19:30:01.856; </time><br>
+    <!-- 日期和时间 -->
+    <time datetime="2016-01-20T19:30">7.30pm, 20 January 2016; </time><br>
+    <!-- 含有时区偏移值的日期时间 -->
+    <time datetime="2016-01-20T19:30+01:00">7.30pm, 20 January 2016 is 8.30pm in France; </time><br>
+    <!-- 调用特定的周 -->
+    <time datetime="2016-W04">The fourth week of 2016</time><br>
+
+  </main>
+
+  <footer>
+    <p>© 2019 right preserved</p>
+  </footer>
 
   <!-- 放在文档的尾部（在 </body>标签之前）是一个更好的选择-->
   <script src="script.js"></script>

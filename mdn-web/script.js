@@ -7,15 +7,15 @@ info.textContent = 'Below is a dynamic list. Click anywhere outside the list to 
 document.body.appendChild(info);
 document.body.appendChild(list);
 
-html.onclick = function() {
-  var listItem = document.createElement('li');
-  var listContent = prompt('What content do you want the list item to have?');
-  listItem.textContent = listContent;
-  list.appendChild(listItem);
+// html.onclick = function() {
+//   var listItem = document.createElement('li');
+//   var listContent = prompt('What content do you want the list item to have?');
+//   listItem.textContent = listContent;
+//   list.appendChild(listItem);
 
-  listItem.onclick = function(e) {
-    e.stopPropagation();
-    var listContent = prompt('Enter new content for your list item');
-    this.textContent = listContent;
-  }
-}
+//   listItem.onclick = function(e) {
+//     e.stopPropagation();
+//     var listContent = prompt('Enter new content for your list item');
+//     this.textContent = listContent;
+//   }
+// }
