@@ -7,6 +7,17 @@
   <meta name="description" content="learning ...">
   <link rel="shortcut icon" href="book_72px_1223022_easyicon.net.ico" type="image/x-icon">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="tables/basic/minimal-table.css" type="text/css">
+  <style>
+    tbody {
+      font-size: 90%;
+      font-style: italic;
+    }
+
+    tfoot {
+      font-weight: bold;
+    }
+  </style>
   <title>HTML Syntax demo</title>
 </head>
 
@@ -172,6 +183,53 @@
         <source src="../../../buffer/DL/李白《月下独酌》.mp3" type="audio/mp3">
         <p>浏览器不支持 HTML5 音频</p>
       </audio>
+    </article>
+
+    <article>
+      <h1>读好书</h1>
+      <table>
+        <caption>近期阅读记录</caption>
+        <thead>
+          <tr>
+            <th scope="col">book</th>
+            <th scope="col">rating</th>
+            <th scope="col">start</th>
+            <th scope="col">finish</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Flask Web 开发实战 [duokan]</th>
+            <td>4.5</td>
+            <td>2019-03-01</td>
+            <td>2019-09-30</td>
+          </tr>
+          <tr>
+            <th scope="row">Python 自动化运维 [duokan]</th>
+            <td>1</td>
+            <td>2019-11-01</td>
+            <td>2019-11-19</td>
+          </tr>
+          <tr>
+            <th scope="row">SQL 必知必会 [duokan]</th>
+            <td>4</td>
+            <td>2019-12-02</td>
+            <td>2020-01-11</td>
+          </tr>
+          <tr>
+            <th scope="row">黑客与画家 [图灵 O'REILLY 人民邮电出版社 2011.04]</th>
+            <td>4</td>
+            <td>2018-09-01</td>
+            <td>2019-04-30</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <th colspan="3" scope="row">SUM</th>
+            <td>4</td>
+          </tr>
+        </tfoot>
+      </table>
     </article>
 
 
