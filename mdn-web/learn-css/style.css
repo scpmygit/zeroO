@@ -1,0 +1,49 @@
+h1 {
+    color: red;
+}
+
+/* 相邻选择符 */
+h1 + p {
+    font-size: 200%;
+}
+
+/* 同时选择多个元素 */
+p, li {
+    color: green;
+}
+
+li {
+    list-style-type: lower-roman;
+}
+
+.special {
+    color: orange;
+    font-weight: bold;
+}
+
+/* 选中每个 special 类的 li 元素” */
+li.special {
+    color: orange;
+    font-weight: bold;
+}
+
+/*  包含选择符
+    两个选择器之间加上一个空格。
+
+    选择嵌套在<li> 元素内的<em>
+*/
+li em {
+    color: rebeccapurple;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    text-decoration: none;
+}
